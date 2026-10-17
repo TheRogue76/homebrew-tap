@@ -1,6 +1,6 @@
 cask "macos-harness@rc" do
-  version "1.0.0-rc.2"
-  sha256 "98be222b76bf98cc509ba798396af8ce0ab10fce55da9a851246eb176230595d"
+  version "1.0.0-rc.3"
+  sha256 "da991fb86cb245480b6ff744056307a28b1130933638adfb244c57796abb152b"
 
   url "https://github.com/TheRogue76/macos-harness/releases/download/v#{version}/macOS-Harness-#{version}.zip"
   name "macOS Harness"
