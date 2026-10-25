@@ -1,12 +1,13 @@
 cask "macos-harness" do
-  version "0.11.0"
-  sha256 "db20916d52c9b65d7da923e0a261aeb67cf268735bfbc576bec4926bbd5dc629"
+  version "1.0.0"
+  sha256 "60ab0af8292a2514f5184b1fb36cceb011805e94dce9bd55fead335d35c8076c"
 
   url "https://github.com/TheRogue76/macos-harness/releases/download/v#{version}/macOS-Harness-#{version}.zip"
   name "macOS Harness"
   desc "Lets coding agents see and operate macOS apps"
   homepage "https://github.com/TheRogue76/macos-harness"
 
+  conflicts_with cask: "macos-harness@rc"
   depends_on macos: :sequoia
 
   app "macOS Harness.app"
@@ -23,6 +24,7 @@ cask "macos-harness" do
 
   caveats <<~EOS
     Run `macos-harness doctor`, grant the two permissions from the menu bar icon,
-    then connect your agent with `macos-harness setup claude`, `codex` or `pi`.
+    then connect your agent with `macos-harness setup claude` (or codex, cursor,
+    gemini, opencode or pi).
   EOS
 end
