@@ -7,7 +7,7 @@ cask "otto-harness" do
   desc "Lets coding agents see and operate Mac apps, simulators and Android devices"
   homepage "https://github.com/TheRogue76/otto-harness"
 
-  conflicts_with cask: ["otto-harness@rc", "macos-harness", "macos-harness@rc"]
+  conflicts_with cask: "otto-harness@rc"
   depends_on macos: :sequoia
 
   app "Otto.app"
