@@ -1,6 +1,6 @@
 cask "otto-harness" do
-  version "2.0.0"
-  sha256 "9fd2067ecea7205dda8ed599450fe1d5ee679021a6bfbc8a9f93ed9958cc26dd"
+  version "2.0.1"
+  sha256 "1bcde8451c5c7f714e12122c209ba4c5973cbf64dd198ede7aeaf7bf2b09ff27"
 
   url "https://github.com/TheRogue76/otto-harness/releases/download/v#{version}/Otto-#{version}.zip"
   name "Otto"

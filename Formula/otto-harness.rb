@@ -1,16 +1,16 @@
 class OttoHarness < Formula
   desc "Lets coding agents see and operate Linux desktop apps and Android devices"
   homepage "https://github.com/TheRogue76/otto-harness"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_intel do
     url "https://github.com/TheRogue76/otto-harness/releases/download/v#{version}/otto-harness-#{version}-linux-x86_64.tar.gz"
-    sha256 "0e600d6fc3cffeac84b5d8a3207e6ca5e00553e2cde72980a78d35b108dbe4ba"
+    sha256 "8f18c5bb60dde98475ccd0283a1d86885751421bcaba6285b4cac9ee5310cc80"
   end
   on_arm do
     url "https://github.com/TheRogue76/otto-harness/releases/download/v#{version}/otto-harness-#{version}-linux-aarch64.tar.gz"
-    sha256 "aa5dd8628572243eac357e904522671b76766e590a81a5286a307f0f160edabe"
+    sha256 "83188f47f5ffe3bc198f5f2d0f925c27e5f5546e2df0861cc3c3a5ef1ad8f9dc"
   end
 
   depends_on :linux
